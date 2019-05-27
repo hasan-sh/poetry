@@ -11,9 +11,10 @@
     flex-direction: column;
     justify-content: flex-end;
     overflow: hidden;
+    border-bottom: 5px white solid;
 }
 .poemContent:not(:last-child) {
-    border-bottom: 5px white solid;
+    /* border-bottom: 5px white solid; */
 }
 
 .poemContent.hover {

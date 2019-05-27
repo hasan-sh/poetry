@@ -50,7 +50,7 @@ const PoemContainer: React.FC<PoemProps> = ({
     const poemTextProps = useSpring({
         opacity: 1,
         from: { opacity: 0 },
-        delay: DELAY * 1.5,
+        // delay: DELAY * 1.5,
     });
     const canUpdate = allowedUser((user && user.id) || '');
 
@@ -88,7 +88,7 @@ const PoemContainer: React.FC<PoemProps> = ({
                     )}
                 </div>
             </div>
-            {showContent &&
+            {/* {showContent &&
                 poemContainerTransition.map(
                     ({ item, props, key }) =>
                         item && (
@@ -118,7 +118,7 @@ const PoemContainer: React.FC<PoemProps> = ({
                                 </div>
                             </animated.div>
                         ),
-                )}
+                )} */}
         </React.Fragment>
     );
 };
